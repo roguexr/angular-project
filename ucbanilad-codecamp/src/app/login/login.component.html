@@ -1,0 +1,30 @@
+
+<mat-card>
+  <mat-card-title></mat-card-title>
+  <mat-card-content>
+    <mat-form-field>
+      <mat-label>How to eat an apple?</mat-label>
+      <input matInput [(ngModel)]="question1" />
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+      <mat-label>Person's Name</mat-label>
+      <input matInput [(ngModel)]="question2" />
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+      <mat-label>Part sa Lawas</mat-label>
+      <input matInput [(ngModel)]="question3" />
+    </mat-form-field>
+    <br>
+    <mat-form-field>
+      <mat-label>Person's Name</mat-label>
+      <input matInput [(ngModel)]="question4" />
+    </mat-form-field>
+
+  </mat-card-content>
+</mat-card>
+
+<h1>
+  Gi {{ question1 }} ni {{ question2 }} ang {{ question3 }} ni {{ question4 }}
+</h1>
